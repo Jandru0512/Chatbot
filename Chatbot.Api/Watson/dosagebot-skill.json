@@ -1,0 +1,5409 @@
+{
+  "intents": [
+    {
+      "intent": "Agradecimiento",
+      "examples": [
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "Gracias."
+        },
+        {
+          "text": "Muchas gracias."
+        }
+      ],
+      "description": "Agradecimiento."
+    },
+    {
+      "intent": "AgradecimientoAsesor",
+      "examples": [
+        {
+          "text": "W4TS0N4TN4GR4D3C1M13NT0"
+        }
+      ],
+      "description": "Agradecimiento a un asesor cuando no se requieren sus servicios"
+    },
+    {
+      "intent": "AnexosProducto",
+      "examples": [
+        {
+          "text": "HAYARCH1V0PR0DUC70"
+        }
+      ],
+      "description": "Flujo para que el usuario requiera los anexos."
+    },
+    {
+      "intent": "AsesorConectado",
+      "examples": [
+        {
+          "text": "4TNU5U4R10C0NV3RS4C10N"
+        }
+      ],
+      "description": "Asesor conectado con un asesor"
+    },
+    {
+      "intent": "Dosis",
+      "examples": [
+        {
+          "text": "Cuál es la dosis"
+        },
+        {
+          "text": "¿Cuál es la dosis que le debo suministrar del reactivo?"
+        },
+        {
+          "text": "Cuánto de"
+        },
+        {
+          "text": "Deseo saber la medida de un medicamento"
+        },
+        {
+          "text": "Deseo saber una dosis"
+        },
+        {
+          "text": "dime la porción de acido acetilsalicilico"
+        },
+        {
+          "text": "Dosis"
+        },
+        {
+          "text": "dosis de zinc inorganico para cerdos inicio"
+        },
+        {
+          "text": "dosis zinc inorganico cerdos inicio"
+        },
+        {
+          "text": "Iris quiero saber la dosis para pollos en inicio de amoxicilina"
+        },
+        {
+          "text": "Me gustaría saber la porción de un medicamento"
+        },
+        {
+          "text": "Necesito información de la cantidad de un medicamento"
+        },
+        {
+          "text": "Necesito los máximos."
+        },
+        {
+          "text": "Necesito los mínimos."
+        },
+        {
+          "text": "Necesito saber cuál es la dosis de un medicamento"
+        },
+        {
+          "text": "Necesito saber cuál es la dosis de un producto"
+        },
+        {
+          "text": "Necesito saber cuánta avilamicina requiere un cerdo en levante"
+        },
+        {
+          "text": "Necesito saber cuanto de amoxicilina necesita un pollo"
+        },
+        {
+          "text": "Necesito saber los máximos y mínimos."
+        },
+        {
+          "text": "Necesito saber los máximos y mínimos para una especie."
+        },
+        {
+          "text": "Necesito saber los máximos y mínimos para una etapa."
+        },
+        {
+          "text": "Necesito saber los máximos y mínimos para un nutriente."
+        },
+        {
+          "text": "Necesito saber los máximos y mínimos para un principio activo."
+        },
+        {
+          "text": "Necesito saber qué dosis"
+        },
+        {
+          "text": "Por favor dime una porción"
+        },
+        {
+          "text": "Qué cantidad."
+        },
+        {
+          "text": "¿Qué dosis debo administrar?"
+        },
+        {
+          "text": "¿Qué dosis me recomiendas?"
+        },
+        {
+          "text": "Quiero preguntar por una dosis"
+        },
+        {
+          "text": "Quiero saber cuál es la cantidad de una sustancia"
+        },
+        {
+          "text": "Tengo una consulta."
+        }
+      ],
+      "description": "Solicitar dosis"
+    },
+    {
+      "intent": "DosisEncontrada",
+      "examples": [
+        {
+          "text": "D0S1SF0UNDR3SP0NS3"
+        }
+      ],
+      "description": "Respuesta de cuando el bot encuentra la dosis"
+    },
+    {
+      "intent": "Esperar",
+      "examples": [
+        {
+          "text": "Dame un momento."
+        },
+        {
+          "text": "Dame un segundo."
+        },
+        {
+          "text": "Espera."
+        },
+        {
+          "text": "Espera lo leo."
+        },
+        {
+          "text": "Espera por fa."
+        },
+        {
+          "text": "Lo estoy confirmando."
+        },
+        {
+          "text": "no me acuerdo, dejame valido"
+        },
+        {
+          "text": "No me acuerdo, déjame valido."
+        },
+        {
+          "text": "Un momento."
+        },
+        {
+          "text": "Un segundo."
+        },
+        {
+          "text": "Validaré."
+        },
+        {
+          "text": "Verificaré."
+        },
+        {
+          "text": "Voy."
+        },
+        {
+          "text": "Voy a confirmar."
+        },
+        {
+          "text": "Voy a mirar."
+        },
+        {
+          "text": "Voy a validar."
+        },
+        {
+          "text": "Voy a verificar."
+        },
+        {
+          "text": "Ya lo valido."
+        },
+        {
+          "text": "Ya te aviso."
+        },
+        {
+          "text": "Ya te digo."
+        },
+        {
+          "text": "Ya voy."
+        }
+      ],
+      "description": "Espera"
+    },
+    {
+      "intent": "EsperarMensaje",
+      "examples": [
+        {
+          "text": "W4TS0N4TN3SP3R4ND0"
+        }
+      ],
+      "description": "Esperar mensaje en conversación ATN"
+    },
+    {
+      "intent": "Finalizar",
+      "examples": [
+        {
+          "text": "Chaito."
+        },
+        {
+          "text": "Chao."
+        },
+        {
+          "text": "Chau."
+        },
+        {
+          "text": "¡Cuídate!"
+        },
+        {
+          "text": "Eso ha sido todo lo que me hacía falta."
+        },
+        {
+          "text": "Fue agradable hablar contigo."
+        },
+        {
+          "text": "fue muy util tu ayuda"
+        },
+        {
+          "text": "Gracias no necesito más ayuda."
+        },
+        {
+          "text": "Gracias, podemos cerrar esta conversación."
+        },
+        {
+          "text": "Gracias por tu ayuda, hasta luego."
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "Hasta luego."
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "Muchas gracias por tu ayuda Iris"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "No quiero hacer mas preguntas"
+        },
+        {
+          "text": "Nos vemos."
+        },
+        {
+          "text": "No tengo más dudas, gracias por tu ayuda."
+        },
+        {
+          "text": "OK, eso es todo lo que necesito saber."
+        },
+        {
+          "text": "Qué te lo pases bien."
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "Terminar"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "FinalizarConversacionAtn",
+      "examples": [
+        {
+          "text": "4TNU5U4R10F1N4L1Z4R"
+        }
+      ],
+      "description": "Finalizar conversación con el ATN"
+    },
+    {
+      "intent": "NoHayArchivosProducto",
+      "examples": [
+        {
+          "text": "N0HAYARCH1V0PR0DUC70"
+        }
+      ],
+      "description": "No hay archivos para el producto."
+    },
+    {
+      "intent": "Preguntar",
+      "examples": [
+        {
+          "text": "Antes de finalizar."
+        },
+        {
+          "text": "Antes de terminar, quiero preguntar."
+        },
+        {
+          "text": "Aún no he terminado."
+        },
+        {
+          "text": "Me gustaría hacerte unas preguntas."
+        },
+        {
+          "text": "Me gustaría validar un producto."
+        },
+        {
+          "text": "Necesito ayuda"
+        },
+        {
+          "text": "Otra cosa."
+        },
+        {
+          "text": "Otra pregunta."
+        },
+        {
+          "text": "Por fa."
+        },
+        {
+          "text": "Por fa algo más."
+        },
+        {
+          "text": "¡Por favor!"
+        },
+        {
+          "text": "Por favor, ¿Me ayudas con algo?"
+        },
+        {
+          "text": "Por favor otra cosa."
+        },
+        {
+          "text": "¿Puedo preguntarte algo?"
+        },
+        {
+          "text": "Quiero aclarar algo."
+        },
+        {
+          "text": "Quiero hacer unas preguntas."
+        },
+        {
+          "text": "Quiero preguntar sobre un tema."
+        },
+        {
+          "text": "Quiero validar algo."
+        },
+        {
+          "text": "Quiero validar algo más."
+        },
+        {
+          "text": "Quiero verificar algo."
+        },
+        {
+          "text": "Quiero verificar algo más."
+        },
+        {
+          "text": "Tengo algunas dudas."
+        },
+        {
+          "text": "Tengo algunas preguntas."
+        },
+        {
+          "text": "Tengo otra duda."
+        },
+        {
+          "text": "Tengo otra pregunta."
+        },
+        {
+          "text": "Tengo una duda."
+        },
+        {
+          "text": "Una consulta."
+        },
+        {
+          "text": "Una duda."
+        },
+        {
+          "text": "Una inquietud."
+        },
+        {
+          "text": "Una pregunta."
+        }
+      ],
+      "description": "Realizar una pregunta"
+    },
+    {
+      "intent": "PreguntarAsesor",
+      "examples": [
+        {
+          "text": "W4T5NPR3GUNT4R45350R"
+        }
+      ],
+      "description": "Preguntar a un asesor la inquietud de un usuario"
+    },
+    {
+      "intent": "PreguntasEspecificas",
+      "examples": [
+        {
+          "text": "Antagónicos"
+        },
+        {
+          "text": "Antagónicos de"
+        },
+        {
+          "text": "Categoria de nutrientes"
+        },
+        {
+          "text": "cual es el antagonico de amoxicilina para pollos en inicio"
+        },
+        {
+          "text": "¿Cuál es el precio de una materia prima?"
+        },
+        {
+          "text": "¿Cuál es la materia prima más económica?"
+        },
+        {
+          "text": "cuánto vale?"
+        },
+        {
+          "text": "Deseo saber el homologo de"
+        },
+        {
+          "text": "deseo saber el inventario de la timulina"
+        },
+        {
+          "text": "hola cantidad de homologos"
+        },
+        {
+          "text": "Homologo"
+        },
+        {
+          "text": "Mezcla de producto antagónicos"
+        },
+        {
+          "text": "necesito saber el costo de un mp"
+        },
+        {
+          "text": "Precio de"
+        },
+        {
+          "text": "¿Qué materias primas aportan tiamulina?"
+        },
+        {
+          "text": "¿Qué nutrientes aporta un producto?"
+        },
+        {
+          "text": "¿Qué productos no se pueden mezclar?"
+        },
+        {
+          "text": "¿Qué valor tiene un principio activo?"
+        },
+        {
+          "text": "Relación materia prima nutriente"
+        },
+        {
+          "text": "¿Se pueden mezclar?"
+        }
+      ],
+      "description": "Preguntas que deben de llegar a un asesor."
+    },
+    {
+      "intent": "Producto",
+      "examples": [
+        {
+          "text": "Deseo obtener la descripción de un producto"
+        },
+        {
+          "text": "Deseo obtener la ficha técnica de un producto."
+        },
+        {
+          "text": "Deseo saber más información de un producto."
+        },
+        {
+          "text": "ficha tecnica de alpha d3"
+        },
+        {
+          "text": "me puedes ayudar con información para el producto ADIFLOW para la división Ni"
+        },
+        {
+          "text": "Quiero la presentación de un producto."
+        }
+      ],
+      "description": "Solicitud de información de algún producto."
+    },
+    {
+      "intent": "QueTal",
+      "examples": [
+        {
+          "text": "¿Bien o qué?"
+        },
+        {
+          "text": "¿Cómo estás?"
+        },
+        {
+          "text": "¿Cómo te encuentras?"
+        },
+        {
+          "text": "¿Cómo vas?"
+        },
+        {
+          "text": "¿Estás bien?"
+        },
+        {
+          "text": "Hey, ¿Cómo te va?"
+        },
+        {
+          "text": "Hola, ¿Cómo estás?"
+        },
+        {
+          "text": "Hola, ¿Cómo estás el día de hoy?"
+        },
+        {
+          "text": "Hola, ¿Cómo te sientes?"
+        },
+        {
+          "text": "Hola, ¿Cómo va todo?"
+        },
+        {
+          "text": "Oye, ¿Qué tal?"
+        },
+        {
+          "text": "¿Qué más pues?"
+        },
+        {
+          "text": "¿Qué tal?"
+        }
+      ],
+      "description": "¿Cómo estás?"
+    },
+    {
+      "intent": "Quien",
+      "examples": [
+        {
+          "text": "¿Cómo te llamas?"
+        },
+        {
+          "text": "¿Cuál es tu nombre?"
+        },
+        {
+          "text": "¿Eres humano?"
+        },
+        {
+          "text": "¿Quién eres?"
+        },
+        {
+          "text": "¿Quién eres tú?"
+        },
+        {
+          "text": "¿Quién habla?"
+        }
+      ],
+      "description": "Preguntar quién es"
+    },
+    {
+      "intent": "Saludar",
+      "examples": [
+        {
+          "text": "Buenas noches."
+        },
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "Buenos días, ¿Podemos empezar la conversación?"
+        },
+        {
+          "text": "¿Estás ahí?"
+        },
+        {
+          "text": "¡Estoy feliz de poder hablar contigo por primera vez!"
+        },
+        {
+          "text": "h8la"
+        },
+        {
+          "text": "h9la"
+        },
+        {
+          "text": "Hello."
+        },
+        {
+          "text": "¡Hola!"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "Hola."
+        },
+        {
+          "text": "Hola, amigo mío."
+        },
+        {
+          "text": "Hola Iris."
+        },
+        {
+          "text": "Hola, ¿podrías responder mi pregunta?"
+        },
+        {
+          "text": "Hola, ¿puedes ayudarme?"
+        },
+        {
+          "text": "Hola, ¿quien me puede atender?"
+        },
+        {
+          "text": "Hola, Señor."
+        },
+        {
+          "text": "Holi."
+        },
+        {
+          "text": "¿Me puedes ayudar?"
+        },
+        {
+          "text": "¿Sigues aquí?"
+        },
+        {
+          "text": "¿Tienes un momento, por favor?"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "ValidandoAsesor",
+      "examples": [
+        {
+          "text": "CH3CK1NG43S0R"
+        }
+      ],
+      "description": "Validando con un asesor."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "animal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "camarones",
+          "synonyms": [
+            "camaron"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cerdos",
+          "synonyms": [
+            "cerda",
+            "cerdo",
+            "chanchito",
+            "chancho",
+            "chanchos",
+            "coches",
+            "lechon",
+            "lechones",
+            "marrano",
+            "marranos",
+            "puerco",
+            "suino",
+            "suinos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "otras especies",
+          "synonyms": [
+            "otra especie",
+            "otro",
+            "otros"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pollos",
+          "synonyms": [
+            "broiler",
+            "pollito",
+            "pollo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ponedoras",
+          "synonyms": [
+            "gallina",
+            "gallinas",
+            "pollita",
+            "postura"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "reproductoras",
+          "synonyms": [
+            "reproductora",
+            "reproductoras pesadas"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "detalle",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Herramientas comerciales",
+          "synonyms": [
+            "Comerciales"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Herramientas técnicas",
+          "synonyms": [
+            "Técnicas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Protocolos",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "division",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Ni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Otros",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "etapa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "camarones",
+          "synonyms": [
+            "camaron"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "caninos",
+          "synonyms": [
+            "perro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cobb",
+          "synonyms": [
+            "reproductoras cobb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "engorde",
+          "synonyms": [
+            "ceba",
+            "finalización"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "equinos",
+          "synonyms": [
+            "Caballo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ganaderia",
+          "synonyms": [
+            "ganadería"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gestación",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "inicio",
+          "synonyms": [
+            "lechones",
+            "pollita",
+            "pollito",
+            "preinicio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lactancia",
+          "synonyms": [
+            "lactante"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "levante",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "otros",
+          "synonyms": [
+            "otra",
+            "otras",
+            "otras etapas",
+            "otro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "peces",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "producción",
+          "synonyms": [
+            "postura"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ross",
+          "synonyms": [
+            "reproductoras ross"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nutriente",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "21% CITRATO DE CALCIO",
+          "synonyms": [
+            "21 citrato",
+            "citrato de calcio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "22 SIPERNAT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "58% HARINA DE PESCADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "65% HARINA DE PESCADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6% DECCOX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "9.7% SULFATO DE MAG-NE-SIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ABSORTECH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ABSORTECH ESPECIAL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACEITE DE LINAZA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACEITE DE PALMA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACEITE DE PESCADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACEITE DE SOYA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACEITE MINERAL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACID BUF",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACIDO ACETILSALICILICO",
+          "synonyms": [
+            "ÁCIDO ACETILSALICILICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ACIDO BENZOICO",
+          "synonyms": [
+            "ÁCIDO BENZOICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ACIDO CITRICO",
+          "synonyms": [
+            "ÁCIDO CÍTRICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ÁCIDO FÓLICO",
+          "synonyms": [
+            "ACIDO FOLICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ACIDO FOSFORICO",
+          "synonyms": [
+            "ÁCIDO FOSFÓRICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ÁCIDO GUANIDINOACETICO",
+          "synonyms": [
+            "ACIDO GUANIDINOACETICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ÁCIDO PANTOTENICO",
+          "synonyms": [
+            "ACIDO PANTOTENICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ACTIGEN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ACTIVE-MOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADIFLOW",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADIGEN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADINOX L 2551",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADINOX P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADINOX-P",
+          "synonyms": [
+            "ADINOX P"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ADINOX P 2551",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADINOX P ET",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADIPELL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AG 175",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AINTECH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AISLADO DE SOYA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALFATROL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALL G RICH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALLZYME SSF",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALLZYME VEGPRO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALLZYME VEGPRO HE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALPHA D3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ALUMINOSILICATO HIDRATADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AMBROXOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AMOXICILINA",
+          "synonyms": [
+            "amoxi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ANTOX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "APETENZYMA 8 GZ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AQUAFORM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARBOCEL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARCILLA ZEA PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARENA OL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARGO DX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARGO MX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARROCILLO CRISTAL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ARROZ GRANZA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ASCOGEN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ASTAXANTINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ATRAPANTE MICOTOXINA NO POLAR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ATRAPANTE MICOTOXINA POLAR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AVILAMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AVIZYME 1502",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AXTRA PHY 10000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AZUCAR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AZUCAR 3X",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AZUCAR BLANCA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AZUCAR IMPALPABLE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AZUFRE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BACITRACINA DE ZINC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BACITRACINA METILENO DISALICILATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BACITRACINA ZINC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BACTFUN TOTAL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BACT MOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BEDGEN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BEDGEN 40",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BENTONITA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BETAINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BETAINA HCL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "B.H.T",
+          "synonyms": [
+            "BHT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BICARBONATO DE SODIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOACID",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOCALCIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOCHOLINE (COLINA HERBAL)",
+          "synonyms": [
+            "BIOCHOLINE",
+            "COLINA HERBAL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOMOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOPOWDER",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOPREX MADRES PR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOQUINA PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOSAF",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOSTRONG 510",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOSTRONG FORTE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIOTINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BIO-YEAST",
+          "synonyms": [
+            "BIO YEAST"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BITARTRATO DE COLINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BLEND ENZIMATICO ENGFINAL WXA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "B MANANASA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BUTIRATO DE SODIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BUTIREX C4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BUTYRIBIOL 1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BUTYRIBIOL 2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BUTYTEC PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CALCIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CALCIO INORGÁNICO",
+          "synonyms": [
+            "CALCIO INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CALCIO ORGÁNICO",
+          "synonyms": [
+            "CALCIO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CALCIO VEHICULAR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CALIBRIN A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CALIBRIN Z",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CALSEAPOWER ADVANCE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CANTAXANTINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CARBOHIDRATASAS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CARBONATO DE CALCIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CASCARILLA DE ARROZ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CASCARILLA REMOLIDA DE ARROZ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CELMANAX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CELULOSA MICROCRISTALINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CIBENZA DP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CIBENZA DP 100",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CINARINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CIPROFLOXACINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CIROMAZINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRANAXANTINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITREX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRO-QUIM",
+          "synonyms": [
+            "CITRO QUIM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRO QUIM PS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRO-ZIM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITROZIM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRO-ZIM NA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITROZIM NA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITRO-ZIM NURSING",
+          "synonyms": [
+            "CITRO ZIM NURSING"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CLA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLOPIDOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORTETRACICLINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE AMONIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE CALCIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE COLINA 50%",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE COLINA  60%",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE COLINA 60%",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE CROMO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLORURO DE POTASIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CLOSTAT HC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "COBALTO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "COBALTO INORGÁNICO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "COBALTO ORGÁNICO",
+          "synonyms": [
+            "COBALTO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COBRE INORGÁNICO",
+          "synonyms": [
+            "COBRE INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COBRE ORGÁNICO",
+          "synonyms": [
+            "COBRE ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COLISTINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CONCENTRADO PROTEICO SOYA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CONDROITIN SULFATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CRINA POULTRY PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CRISTALFEED",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CROMO ORGÁNICO",
+          "synonyms": [
+            "CROMO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DDGS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DECOQUINATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DEODORASE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DEXTRINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DICLAZURIL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DIGESTOR BROILER",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DI-HEPTARINE",
+          "synonyms": [
+            "DI HEPTARINE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DIHIDROPIRIDINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DL METIONINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DOXICICLINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DULCOAPETENTE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ECOBIOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ECONASE XT 25",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "EM-DROG PREMIX",
+          "synonyms": [
+            "EM DROG PREMIX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ENERFAT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ENRAMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ESCENT S",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ESPECTINOMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ESTEARATO DE MAGNESIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ESTER APOCAROTENOICO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ETOPABATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ETOXIQUINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "EXOLUTION",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FEED - X",
+          "synonyms": [
+            "FEED X"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FELDESPATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FENBENDAZOLE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FILAX FORTE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FINASE EC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FINBIOX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FITASA 5000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FITASA PROTEGIDA (10000)",
+          "synonyms": [
+            "FITASA PROTEGIDA 10000"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FIXAT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLAVIT BANANO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLAVIT CANELA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLAVIT ED",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLAVIT MANZANA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLAVIT SWEET",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLAVOFOSFOLIPOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLORFENICOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FLUBENDAZOLE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FOKKAMIX 10",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FORRAJE BUFALO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FORTCELL FEED",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FOSFOMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FOSFORO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GANODERMA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GLICERINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GLICEROL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GLICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GLUCAN MOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GLUKOGEN C40",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GLUTEN MAIZ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GRASA SOBREPASANTE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "GUSTOR NRGY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HALQUINOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE ARROZ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE CARNE Y HUESO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE HUESO CALCINADA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE PESCADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE SOYA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE TRIGO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HARINA DE TRIGO BLANCA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HEMICEL-HT",
+          "synonyms": [
+            "HEMICEL HT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HEMICELL-HT",
+          "synonyms": [
+            "HEMICELL HT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HEMICELL-HT x 25 KG",
+          "synonyms": [
+            "HEMICELL HT x 25 KG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HEMOGLOBINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HEPATOPROTECTOR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HIERRO INORGÁNICO",
+          "synonyms": [
+            "HIERRO INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HIERRO ORGÁNICO",
+          "synonyms": [
+            "HIERRO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HILYSES",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HOSTAZYM X 15000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HUEVO DESHIDRATADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HUEVO EN POLVO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HY D 1,25%",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HY D 2%",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HY D DILUIDO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "HYGEN PRO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHIMOLD P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHIMOLD-P",
+          "synonyms": [
+            "INHIMOLD P"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "INHIMOLD PC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHISALM P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INMUNOWALL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INMUTEIN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INOSITOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IVERMECTINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "JOSAMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "KLINOFEED",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LACTICDRY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LACTOSA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "L-ARGININA",
+          "synonyms": [
+            "L ARGININA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LASALOSID SÓDICO",
+          "synonyms": [
+            "LASALOSID SODICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "L-CARNITINA",
+          "synonyms": [
+            "L CARNITINA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LECHE DESCREMADA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LECHE DESLACTOSADA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LECHE EN POLVO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LECHE ENTERA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LECHE ENTERA INSTANTANEA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LECHE POLVO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LEVADURA 100E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LEVADURA DE SELENIO GRANULAR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LEVADURA VIVA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LEVIN HILYSES",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LEVUCELL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LEVUCELL SB 20",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LINCOMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIPIDOL 50",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIPOFEED",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIPOSORB",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIPREX N.F",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIPREX P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIPREX-P",
+          "synonyms": [
+            "LIPREX P"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LISINA HCL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LISINA SULFATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIVERAD",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIVERPROT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIVOLIV",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LIVOL PREMIX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "L-TREONINA 98%",
+          "synonyms": [
+            "L TREONINA 98%"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "L-TRIPTOFANO",
+          "synonyms": [
+            "L TRIPTOFANO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LUCAROTIN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LUCTAMOLD P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LUCTAROM LACTEO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LUCTAROM STARTER",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "LUTALIN POLVO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "L-VALINA",
+          "synonyms": [
+            "L VALINA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MADURAMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MAGNESIO INORGANICO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MAGNESIO ORGANICO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MAIZ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MAIZ EXTRUIDO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MALTODEXTRINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MANGANESO INORGÁNICO",
+          "synonyms": [
+            "MANGANESO INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MANGANESO ORGÁNICO",
+          "synonyms": [
+            "MANGANESO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MAXICHICK",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MELAZA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MEPRON",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "METHILBENZOQUATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "METIONINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "METIONINA MHA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MICOFIX PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MICRO-AID",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MICROAID",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MICROSOURCE S MC (PURE GROW)",
+          "synonyms": [
+            "MICROSOURCE S MC",
+            "MICROSOURCE S MC PURE GROW"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MICROTECH 5000 NT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MICROTECH 5000 PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MILBOND-TX",
+          "synonyms": [
+            "MILBOND TX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MOLASWEET",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MONENSINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MSM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCO-AD",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCO AD  A - Z",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCO AD  A-Z",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCOFIX PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCOFIX SECURE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCOFIX SELECT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCOFIX SELECT 5.0",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCOSORB",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MYCOSORB A+",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NARASINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NAT BIO ESENCIAL PREMIX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUBIOTICO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUGRAIN TS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUPHOS 10.000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUPHOS E 10000 G",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUR GROWTH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUR P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NATUR POULTRY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NEOMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NEOMICIN SULFATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NIACINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NIASHURE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NICARBAZINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NORFLOXACINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NOR-GRAPE 80",
+          "synonyms": [
+            "NOR GRAPE 80"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NOTOX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NOVASIL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NUPRO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NUTRASE XYLA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NUTRI Q",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NUTRI-ZYME BLEND CFP CERDOS",
+          "synonyms": [
+            "NUTRI ZYME BLEND CFP CERDOS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OPTIGEN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OSY WITH VIT E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OXIBENDAZOLE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OXICAP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OXIDO DE HIERRO AMARILLO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OXIDO HIERRO ROJO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "OXITETRACICLINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PALBIO 62 SP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PAMBONIS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PANBONIS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PARED CELULAR CRUDA DE LEVADUR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PEPTIDOS DE PESCADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PHYZYME 10.000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PHYZYME 5.000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PIDOVIT(PIDOLATO-CA,CALCIDIOL)",
+          "synonyms": [
+            "CALCIDIOL",
+            "PIDOLATO CA",
+            "PIDOLATO-CA",
+            "PIDOVIT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PIGSWEET",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PIRIDOXINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PLASMA ANIMAL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "POTASIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "POULTRY GROW",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PREPARACION PROTEICA GLUTEN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROCREATIN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROKEL CERDOS REPRODUCTORES",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROKEL PONEDORAS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prokura Rumicell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROPILENGLICOL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROPIONATO DE CALCIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROTEINA HP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PROVI E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "QUANTUM BLUE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "QUATEC ADVANCE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RACTOPAMINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "REASHURE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RIBOFLAVINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROBENIDINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROJO PUNZO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RONOZYME A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RONOZYME HIPHOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RONOZYME NC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RONOZYME PROACT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RONOZYME WX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RONOZYME WX (CT)",
+          "synonyms": [
+            "RONOZYME WX CT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO ADVANCE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO ADVANCE P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO ADVANCE (T-FLEX)",
+          "synonyms": [
+            "ROVABIO ADVANCE T-FLEX"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO EXCEL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO EXCEL AP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO MAX ADVANCE P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO MX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO MX AP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO T  - FLEX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABIO T-FLEX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROVABO T-FLEX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROXARSONA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ROXARSONE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SABORIZANTE DD635AQ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SABORIZANTE LIQUIDO CEBO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SACARINA SODICA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SAL DE MAR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SAL DE MAR REFINADA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SALINOMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SALVADO DE TRIGO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SELENIO INORGÁNICO",
+          "synonyms": [
+            "SELENIO INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SELENIO ORGÁNICO",
+          "synonyms": [
+            "SELENIO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SESQUIOCARBONATO DE SODIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SILICA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SILIMARINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SINERMIC PLUS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SIPERNAT 22 S",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SMARTAMINE M",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SODIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SOYA EXTRUIDA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SPIRULINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SUCLORTRIM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SUCRAM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SUERO DE LECHE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SUERO DULCE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SUERO DULCE DE LECHE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SUERO PERMEATO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFACLOROPIRIDAZINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFADIAZINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFAMETACINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFAMETAZINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFATO DE CALCIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFATO DE GLUCOSAMINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFATO DE MAGNESIO HEPTAHI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SULFATO DE MAGNESIO HEPTAHIDRATADO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SYMBIOTIC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TARTRATO DE TILOSINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TARTRATO DE TILVALOSINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TARTRAZINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TAURINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TECMAX PRO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TECNIGRAS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TIAMINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TIAMULINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TILMICOSINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TILOSINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TOLTRAZURIL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TORTA DE SOYA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TORTA SOYA TRATADA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TREONINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TRIMETOPRIN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TRIPTOFANO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "TURBO TOX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "UNIDADES DE FITASA",
+          "synonyms": [
+            "Fitasa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UNIKE PLUS DRY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "UNIWALL MOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "UNIWALL MOS 25",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "UREA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VALINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VEO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VEO PREMIUM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VIOLETA DE GENCIANA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VIRGINIAMICINA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAL BINDER BIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAL BINDER NP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAL BINDER P",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITALLBINDER",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITALL BINDER CERDOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITALL BINDER CERDOS x 25 KG",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAMINA A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAMINA B-12",
+          "synonyms": [
+            "VITAMINA B12"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAMINA C",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAMINA D3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAMINA E",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VITAMINA K",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "XANTÓFILAS",
+          "synonyms": [
+            "XANTOFILAS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "XANTOFILAS AMARILLAS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "XANTOFILAS ROJAS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YEA-SACC",
+          "synonyms": [
+            "YEA SACC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "YEA SACC 1026",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YEAST CELL WALL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YES MOS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "YODO INORGÁNICO",
+          "synonyms": [
+            "YODO INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "YODO ORGÁNICO",
+          "synonyms": [
+            "YODO ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "YUCCA SCHIDIGERA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ZEO MIX BIO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ZEOTEK",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ZINC INORGÁNICO",
+          "synonyms": [
+            "ZINC INORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ZINC ORGÁNICO",
+          "synonyms": [
+            "ZINC ORGANICO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ZINC RECUBIERTO",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ZYMPEX",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pais",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Colombia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ecuador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guatemala",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Perú",
+          "synonyms": [
+            "Peru"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "producto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ADIFLOW",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADINOX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADIPELL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CITROQUIM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FORMADIQ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHEX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHIFARM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHIMOLD",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "INHISALM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prueba Desarrollo",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "respuesta",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "luego",
+            "No"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sí",
+          "synonyms": [
+            "claro",
+            "por supuesto",
+            "si"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "saludo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Buenas noches.",
+          "synonyms": [
+            "Buena noche",
+            "Buenas noches",
+            "Noches"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Buenas tardes.",
+          "synonyms": [
+            "Buenas tardes",
+            "Buena tarde",
+            "Tardes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Buenos días.",
+          "synonyms": [
+            "Buen dia",
+            "Buenos días",
+            "Días"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Árticulos Técnicos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brochure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dosis de Productos",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ficha de Seguridad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ficha Técnica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Otro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PPT",
+          "synonyms": [
+            "Power Point",
+            "PowerPoint",
+            "Presentación"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Simulador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Simulador de Dosis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Todo",
+          "synonyms": [
+            "Ambos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Video",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "text": {
+          "values": [
+            "No le he entendido. Intente reformular la consulta.",
+            "¿Puede expresarse con otras palabras? No le he entendido.",
+            "No entendí el significado."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "anything_else",
+      "digress_in": "not_available",
+      "dialog_node": "En otras cosas",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1540299724685"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1530306378167",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1530306378167",
+      "previous_sibling": "handler_9_1530306378167"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para este país no tengo información, intenta con un país diferente.",
+            "No tengo información para el país indicado, confirma si es el país que deseas consultar."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1539832206201",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1539833060731",
+      "previous_sibling": "handler_3_1539832206201"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1548163297806",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1548163297806",
+      "previous_sibling": "handler_9_1548163297806"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1540307810590",
+      "context": {
+        "pais": "@pais"
+      },
+      "conditions": "@pais",
+      "event_name": "input",
+      "dialog_node": "handler_11_1540307810590"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1539833177233",
+      "context": {
+        "pais": "@pais"
+      },
+      "conditions": "@pais",
+      "event_name": "input",
+      "dialog_node": "handler_12_1539833177233"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1540307810590",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1540307810590",
+      "previous_sibling": "handler_11_1540307810590"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1541797908277",
+      "event_name": "input",
+      "dialog_node": "handler_12_1541797908277"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1548163307919",
+      "context": {
+        "detalle": "@detalle"
+      },
+      "conditions": "@detalle",
+      "event_name": "input",
+      "dialog_node": "handler_12_1548163307919"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_3_1529548237563",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_13_1529614625649",
+      "previous_sibling": "node_13_1530127173897"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1539833177233",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1539833177233",
+      "previous_sibling": "handler_12_1539833177233"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1541797908277",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1541797908277",
+      "previous_sibling": "handler_12_1541797908277"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1548163307919",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1548163307919",
+      "previous_sibling": "handler_12_1548163307919"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1529614812866",
+      "context": {
+        "etapa": "@etapa"
+      },
+      "metadata": {},
+      "conditions": "@etapa",
+      "event_name": "input",
+      "dialog_node": "handler_16_1529614812866",
+      "previous_sibling": "handler_17_1529614812866"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_15_1530050532017",
+      "context": {
+        "animal": "@animal"
+      },
+      "metadata": {},
+      "conditions": "@animal",
+      "event_name": "input",
+      "dialog_node": "handler_16_1530050532017",
+      "previous_sibling": "handler_17_1530050532017"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿En qué etapa se encuentra?",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿En qué etapa se encuentra?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_15_1529614812866",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1529614812866"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Para qué especie?",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Para qué especie?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_15_1530050532017",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1530050532017"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_2_1529532891628",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_17_1530308112056",
+      "previous_sibling": "slot_26_1531238580589"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1547727416416",
+      "context": {
+        "detalle": "@detalle"
+      },
+      "metadata": {},
+      "conditions": "@detalle",
+      "event_name": "input",
+      "dialog_node": "handler_17_1547727416416",
+      "previous_sibling": "handler_18_1547727416416"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿A qué detalle pertenece? Ejemplo: Herramientas comerciales, Herramientas técnicas, Protocolos."
+      },
+      "parent": "slot_16_1547727416416",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_18_1547727416416"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1531238013806",
+      "context": {
+        "Saludo": "@saludo"
+      },
+      "metadata": {},
+      "conditions": "@saludo",
+      "event_name": "input",
+      "dialog_node": "handler_19_1531238013806",
+      "previous_sibling": "handler_20_1531238013806"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1537195243443",
+      "context": {
+        "etapa": "@etapa"
+      },
+      "metadata": {},
+      "conditions": "@etapa",
+      "event_name": "input",
+      "dialog_node": "handler_19_1537195243443",
+      "previous_sibling": "handler_20_1537195243443"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_19_1530127918685",
+      "event_name": "input",
+      "dialog_node": "handler_20_1530127918685"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_18_1531238013806",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_20_1531238013806"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Reproductora Ross o Reproductora Cobb?",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Reproductora Ross o Reproductora Cobb?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_18_1537195243443",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_20_1537195243443"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_19_1530127918685",
+      "event_name": "focus",
+      "dialog_node": "handler_21_1530127918685",
+      "previous_sibling": "handler_20_1530127918685"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1529613741097",
+      "context": {
+        "nutriente": "@nutriente"
+      },
+      "metadata": {},
+      "conditions": "@nutriente",
+      "event_name": "input",
+      "dialog_node": "handler_2_1529613741097",
+      "previous_sibling": "handler_3_1529613741097"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "No he reconocido esa especie.",
+            "Esa especie no me suena familiar."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_6_1529613824742",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_2_1530019292248",
+      "previous_sibling": "handler_7_1529613824742"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1540307796387",
+      "context": {
+        "animal": "@animal"
+      },
+      "conditions": "@animal",
+      "event_name": "input",
+      "dialog_node": "handler_2_1540307796387"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1547649963803",
+      "context": {
+        "producto": "@producto"
+      },
+      "conditions": "@producto",
+      "event_name": "input",
+      "dialog_node": "handler_2_1547649963803"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "No he reconocido la reproductora."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_18_1537195243443",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_22_1537195248901",
+      "previous_sibling": "handler_19_1537195243443"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Puedes verificar la etapa por favor?",
+            "No conozco esa etapa."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_15_1529614812866",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_23_1530103597861",
+      "previous_sibling": "handler_16_1529614812866"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Saludo",
+            "¡Feliz inicio de día!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_18_1531238013806",
+      "metadata": {},
+      "conditions": "@saludo:(Buenos días.)",
+      "event_name": "filled",
+      "dialog_node": "handler_24_1531238187136",
+      "previous_sibling": "handler_19_1531238013806"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1531238580589",
+      "context": {
+        "Saludar": "#Saludar"
+      },
+      "metadata": {},
+      "conditions": "#Saludar",
+      "event_name": "input",
+      "dialog_node": "handler_27_1531238580589",
+      "previous_sibling": "handler_28_1531238580589"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Saludo",
+            "Bonita tarde.",
+            "Buenas tardes, estoy para servirte."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_18_1531238013806",
+      "metadata": {},
+      "conditions": "@saludo:(Buenas tardes.)",
+      "event_name": "filled",
+      "dialog_node": "handler_27_1537196168018",
+      "previous_sibling": "handler_24_1531238187136"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_26_1531238580589",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_28_1531238580589"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Saludo",
+            "¡Espero que hayas tenido un lindo día!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_18_1531238013806",
+      "metadata": {},
+      "conditions": "@saludo:(Buenas noches.)",
+      "event_name": "filled",
+      "dialog_node": "handler_28_1537196229452",
+      "previous_sibling": "handler_27_1537196168018"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Hola",
+            "Hola, siempre es un placer saludarte",
+            "Es un placer que me contactes.",
+            "¡Qué bueno tenerte por aquí!",
+            "Hola, soy Iris"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_26_1531238580589",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_29_1531238590421",
+      "previous_sibling": "handler_27_1531238580589"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Cuál es el principio activo?"
+      },
+      "parent": "slot_1_1529613741097",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1529613741097"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1530306339385",
+      "context": {
+        "animal": "@animal"
+      },
+      "conditions": "@animal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1530306339385"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1539832206201",
+      "context": {
+        "pais": "@pais"
+      },
+      "metadata": {},
+      "conditions": "@pais",
+      "event_name": "input",
+      "dialog_node": "handler_3_1539832206201",
+      "previous_sibling": "handler_4_1539832206201"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1540307796387",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1540307796387",
+      "previous_sibling": "handler_2_1540307796387"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿De qué producto deseas la información?"
+      },
+      "parent": "slot_1_1547649963803",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1547649963803",
+      "previous_sibling": "handler_2_1547649963803"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1547726847957",
+      "context": {
+        "respuesta": "@respuesta"
+      },
+      "metadata": {},
+      "conditions": "@respuesta",
+      "event_name": "input",
+      "dialog_node": "handler_3_1547726847957"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1548163230935",
+      "context": {
+        "producto": "@producto"
+      },
+      "conditions": "@producto",
+      "event_name": "input",
+      "dialog_node": "handler_3_1548163230935"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1530306339385",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1530306339385",
+      "previous_sibling": "handler_3_1530306339385"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Para qué país necesitas la información?",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Para qué país necesitas la información?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1539832206201",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1539832206201"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Deseas que se te envíen los archivos anexos?"
+      },
+      "parent": "slot_2_1547726847957",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_4_1547726847957",
+      "previous_sibling": "handler_3_1547726847957"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1548163230935",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1548163230936",
+      "previous_sibling": "handler_3_1548163230935"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "No he reconocido el principio activo.",
+            "Ese principio activo no me suena familiar."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_1_1529613741097",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_5_1530049044535",
+      "previous_sibling": "handler_2_1529613741097"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "No he reconocido esa especie.",
+            "Esa especie no me suena familiar."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "slot_15_1530050532017",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_5_1530103428000",
+      "previous_sibling": "handler_16_1530050532017"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1540307802334",
+      "context": {
+        "nutriente": "@nutriente"
+      },
+      "conditions": "@nutriente",
+      "event_name": "input",
+      "dialog_node": "handler_5_1540307802334"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1547651291706",
+      "context": {
+        "division": "@division"
+      },
+      "conditions": "@division",
+      "event_name": "input",
+      "dialog_node": "handler_5_1547651291706"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1530306361406",
+      "context": {
+        "nutriente": "@nutriente"
+      },
+      "metadata": {},
+      "conditions": "@nutriente",
+      "event_name": "input",
+      "dialog_node": "handler_6_1530306361406"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1540307802334",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1540307802334",
+      "previous_sibling": "handler_5_1540307802334"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿A qué división pertenece $producto?"
+      },
+      "parent": "slot_4_1547651291706",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1547651291706",
+      "previous_sibling": "handler_5_1547651291706"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1547727000335",
+      "context": {
+        "tipo": "@tipo"
+      },
+      "metadata": {},
+      "conditions": "@tipo",
+      "event_name": "input",
+      "dialog_node": "handler_6_1547727000335",
+      "previous_sibling": "handler_7_1547727000335"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1548163289823",
+      "context": {
+        "division": "@division"
+      },
+      "conditions": "@division",
+      "event_name": "input",
+      "dialog_node": "handler_6_1548163289823"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1529613824742",
+      "context": {
+        "animal": "@animal"
+      },
+      "metadata": {},
+      "conditions": "@animal",
+      "event_name": "input",
+      "dialog_node": "handler_7_1529613824742",
+      "previous_sibling": "handler_8_1529613824742"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1530306361406",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1530306361406",
+      "previous_sibling": "handler_6_1530306361406"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Qué información requiere? Ejemplo: Presentación, Ficha técnica, Todo."
+      },
+      "parent": "slot_5_1547727000335",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1547727000335"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1548163289823",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1548163289823",
+      "previous_sibling": "handler_6_1548163289823"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "¿Para qué especie y etapa?"
+      },
+      "parent": "slot_6_1529613824742",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_8_1529613824742"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1540307806086",
+      "context": {
+        "etapa": "@etapa"
+      },
+      "conditions": "@etapa",
+      "event_name": "input",
+      "dialog_node": "handler_8_1540307806086"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1530306378167",
+      "context": {
+        "etapa": "@etapa"
+      },
+      "metadata": {},
+      "conditions": "@etapa",
+      "event_name": "input",
+      "dialog_node": "handler_9_1530306378167"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1540307806086",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1540307806086",
+      "previous_sibling": "handler_8_1540307806086"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1548163297806",
+      "context": {
+        "tipo": "@tipo"
+      },
+      "conditions": "@tipo",
+      "event_name": "input",
+      "dialog_node": "handler_9_1548163297806"
+    },
+    {
+      "type": "frame",
+      "title": "Otra característica",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@animal && $nutriente && $etapa && $pais || @nutriente && $animal && $etapa && $pais || @etapa && $animal && $nutriente && $pais || @pais && $animal && $nutriente && $etapa || @animal && @etapa && $nutriente && $pais || @animal && @nutriente && $etapa && $pais || @animal && $nutriente && $etapa && @pais || $animal && @nutriente && @etapa && $pais || $animal && @nutriente && $etapa && @pais || $animal && $nutriente && @etapa && @pais || @animal && @nutriente && @etapa && $pais || @animal && $nutriente && @etapa && @pais || @animal && @nutriente && $etapa && @pais || $animal && @nutriente && @etapa && @pais || @animal && @nutriente && @etapa && @pais",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1530306168591",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1540302776993",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Preguntar",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cómo puedo ayudarte?",
+            "¿Qué puedo hacer por ti?",
+            "¿Cómo te puedo colaborar?",
+            "¿Qué consulta tienes para hoy?",
+            "¿Cuál es tu duda?",
+            "¿En qué te puedo ayudar?",
+            "¿Cómo puedo apoyarte?",
+            "¿En qué duda necesitas que te asista?",
+            "¿Cómo te ayudo?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Preguntar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1530625091787",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1547742704187"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "¿Le gustaría realizar otra consulta?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1530625091787",
+      "context": {},
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_1_1530625581874"
+    },
+    {
+      "type": "standard",
+      "title": "Identidad",
+      "output": {
+        "text": {
+          "values": [
+            "Soy Iris, tu aliada para nutrir posibilidades juntos.",
+            "Mi nombre es Iris y estoy para servirte"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Quien",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1530815599775",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1531233953334"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta final dosis",
+      "output": {
+        "text": {
+          "values": [
+            "En $pais, la dosis de $nutriente para $animal en etapa $etapa es de máximo: $maximo y mínimo: $minimo $medida.",
+            "El máximo es: $maximo y el mínimo es: $minimo $medida de $nutriente para $animal en $etapa para el país $pais.",
+            "Para $pais, la dosis máxima y mínima de $nutriente para $animal en $etapa es de $maximo y $minimo $medida respectivamente.",
+            "En $pais para $animal en $etapa puedes usar una dosis máxima de $maximo y mínima de $minimo $medida de $nutriente.",
+            "En $pais se puede suministrar una dosis de $nutriente entre $maximo y $minimo $medida para $animal en $etapa."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1539358760683"
+      },
+      "conditions": "#DosisEncontrada",
+      "dialog_node": "node_1_1538682736977",
+      "previous_sibling": "node_1_1539358760683"
+    },
+    {
+      "type": "standard",
+      "title": "Algo más",
+      "output": {
+        "text": {
+          "values": [
+            "¿Se te ofrece algo más?",
+            "¿Puedo colaborarte en algo más?",
+            "¿Tienes otra pregunta?",
+            "¿Te puedo ayudar en algo más?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "dialog_node": "node_1_1539358760683",
+      "previous_sibling": "node_2_1547743329566"
+    },
+    {
+      "type": "standard",
+      "title": "Asesor asignado",
+      "output": {
+        "text": {
+          "values": [
+            "Has sido puesto en contacto con un usuario que requiere de tu ayuda, serías tan amable de responder a sus preguntas, y luego dar clic en el botón finalizar. Gracias!"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#AsesorConectado",
+      "dialog_node": "node_1_1539794042147",
+      "previous_sibling": "node_1_1538682736977"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar conversacion con asesor",
+      "output": {
+        "text": {
+          "values": [
+            "Se ha finalizado la conversación."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1529615348049"
+      },
+      "conditions": "#FinalizarConversacionAtn",
+      "dialog_node": "node_1_1539875901398",
+      "previous_sibling": "node_2_1538683056213"
+    },
+    {
+      "type": "standard",
+      "title": "Preguntar a un asesor",
+      "output": {
+        "text": {
+          "values": [
+            "¿Qué cantidad de $nutriente se le puede suministrar a la especie $animal en la etapa $etapa para el país $pais?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#PreguntarAsesor",
+      "dialog_node": "node_1_1540299724685",
+      "previous_sibling": "node_3_1539879802583"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "En otras cosas",
+      "metadata": {},
+      "dialog_node": "node_1_1542210116197"
+    },
+    {
+      "type": "frame",
+      "title": "Productos",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "pais": null,
+        "etapa": null,
+        "animal": null,
+        "nutriente": null,
+        "especifica": false
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Producto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547037774684",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "frame",
+      "title": "AnexosProducto",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1539358760683"
+      },
+      "conditions": "#AnexosProducto && $producto && $division",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547726801798",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1547037774684",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "ContinuarAnexosProducto",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "pais": null,
+        "tipo": null,
+        "etapa": null,
+        "animal": null,
+        "detalle": null,
+        "producto": null,
+        "nutriente": null,
+        "respuesta": null,
+        "especifica": false
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1547037774684"
+      },
+      "conditions": "@respuesta:sí && $division && $producto && $respuesta && $tipo && $detalle",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1547742704187",
+      "previous_sibling": "node_22_1530128229388"
+    },
+    {
+      "type": "frame",
+      "title": "Otra característica producto",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@producto && $division || @division && $producto || @tipo && $producto && $division && $detalle && $respuesta || @detalle && $producto && $division && $tipo && $respuesta",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1548162931423",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1530306168591",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_3_1529548237563",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_13_1530127173897"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cómo te puedo ayudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1529532891628",
+      "context": {
+        "stage": null,
+        "animal": null,
+        "nutrient": null
+      },
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_16_1530308103932",
+      "previous_sibling": "handler_17_1530308112056"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "text": {
+          "values": [
+            "Fue un placer servirte.",
+            "Chao. 😁",
+            "¡Hasta pronto!",
+            "Cuidate.",
+            "Recuerda que siempre puedes contar conmigo para ayudarte en tus labores diarias.",
+            "Gracias a ti por contar conmigo ¡Hasta la próxima!",
+            "Siempre a la orden, es una dicha ayudarte en tus labores.",
+            "¡Cuídate! Espero que hablemos pronto.",
+            "¡Hasta pronto! y recuerda que aqui estaré para seguir nutriendo posibilidades juntos ",
+            "Siempre es un placer ayudarte. ¡Hasta pronto!  ",
+            "Qué tengas un resto de día espléndido"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "pais": null,
+        "tipo": null,
+        "etapa": null,
+        "animal": null,
+        "detalle": null,
+        "division": null,
+        "producto": null,
+        "nutriente": null,
+        "respuesta": null,
+        "especifica": false
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#Finalizar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_18_1529615348049",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1530815599775"
+    },
+    {
+      "type": "frame",
+      "title": "Saludo",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "pais": null,
+        "tipo": null,
+        "etapa": null,
+        "animal": null,
+        "detalle": null,
+        "division": null,
+        "producto": null,
+        "nutriente": null,
+        "respuesta": null,
+        "especifica": false
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1530625091787"
+      },
+      "conditions": "#Saludar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1529532891628",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1548162931423",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Espera",
+      "output": {
+        "text": {
+          "values": [
+            "Claro, dime el dato en cuanto sea posible."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Esperar",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1530626965482",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_18_1529615348049"
+    },
+    {
+      "type": "standard",
+      "title": "Validando con un asesor",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor espera un momento, validaré con un asesor. En caso de querer finalizar la conversación puedes dar clic en el siguiente botón.",
+            "No he encontrado respuesta a tu pregunta, voy a realizar una pequeña consulta. Si no tienes tiempo puedes dar clic en el botón finalizar",
+            "Dame un momento por favor, me pondré en contacto con un asesor. De lo contrario finaliza la conversación con el siguiente botón."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#ValidandoAsesor",
+      "dialog_node": "node_2_1538683056213",
+      "previous_sibling": "node_1_1539794042147"
+    },
+    {
+      "type": "frame",
+      "title": "Preguntas especificas",
+      "output": {
+        "text": {
+          "values": [
+            "<? input.text ?>"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "especifica": true
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#PreguntasEspecificas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1540302776993",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1547759539711",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "FinalizarProducto",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "pais": null,
+        "tipo": null,
+        "etapa": null,
+        "animal": null,
+        "detalle": null,
+        "division": null,
+        "producto": null,
+        "nutriente": null,
+        "respuesta": null,
+        "especifica": false
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1529615348049"
+      },
+      "conditions": "@respuesta:no && $division && $producto && $respuesta && $tipo && $detalle",
+      "dialog_node": "node_2_1547743329566",
+      "previous_sibling": "node_23_1530128856362"
+    },
+    {
+      "type": "standard",
+      "title": "Continuar",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "pais": null,
+        "tipo": null,
+        "etapa": null,
+        "animal": null,
+        "detalle": null,
+        "division": null,
+        "producto": null,
+        "nutriente": null,
+        "respuesta": null,
+        "especifica": false
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1529548237563"
+      },
+      "conditions": "@respuesta:sí && $animal && $nutriente && $etapa",
+      "dialog_node": "node_22_1530128229388",
+      "previous_sibling": "node_3_1541796126756"
+    },
+    {
+      "type": "standard",
+      "title": "Finalizar",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "pais": null,
+        "tipo": null,
+        "etapa": null,
+        "animal": null,
+        "detalle": null,
+        "division": null,
+        "producto": null,
+        "nutriente": null,
+        "respuesta": null,
+        "especifica": false
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1529615348049"
+      },
+      "conditions": "@respuesta:no && $animal && $nutrient && $etapa",
+      "dialog_node": "node_23_1530128856362",
+      "previous_sibling": "node_1_1530625091787"
+    },
+    {
+      "type": "frame",
+      "title": "Dosis",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "random"
+        }
+      },
+      "context": {
+        "tipo": null,
+        "detalle": null,
+        "division": null,
+        "producto": null,
+        "especifica": false
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Dosis",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1529548237563",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1530626965482",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Estado",
+      "output": {
+        "text": {
+          "values": [
+            "Todo en orden.",
+            "Genial, gracias por preguntar. 😁",
+            "Alegre 😁, acabo de ver un perro tratando de alcanzar su cola.",
+            "¡Todo va genial por el momento!",
+            "Me gusta sentirme útil.",
+            "¡He tenido un gran día hasta ahora! 😁",
+            "Me siento con suerte de poder ayudarte.",
+            "Muy bien.",
+            "¡Súper bien!",
+            "¡Excelente! Gracias por preguntar.",
+            "¡Bien!",
+            "Con la mejor disposición para asistirte.",
+            "Dispuesta a ayudarte cada que lo necesites."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1530625091787"
+      },
+      "conditions": "#QueTal",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1531233953334",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1529532891628"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimientos a asesores",
+      "output": {
+        "text": {
+          "values": [
+            "Muchas gracias, otro asesor se encargará de solucionar esta duda."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#AgradecimientoAsesor",
+      "dialog_node": "node_3_1539879802583",
+      "previous_sibling": "node_1_1539875901398"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecer",
+      "output": {
+        "text": {
+          "values": [
+            "Con gusto.",
+            "De nada.",
+            "No hay de qué.",
+            "Es un placer servirte",
+            "Ayudarte es mi razón de ser"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Agradecimiento",
+      "digress_in": "returns",
+      "dialog_node": "node_3_1541796126756",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1529548237563"
+    },
+    {
+      "type": "standard",
+      "title": "NoAnexosProducto",
+      "output": {
+        "text": {
+          "values": [
+            "No hay archivos disponibles para $producto"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1539358760683"
+      },
+      "conditions": "#NoHayArchivosProducto",
+      "dialog_node": "node_3_1547759539711",
+      "previous_sibling": "node_1_1547726801798"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1541796126756",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_4_1541796157653"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1540302776993",
+      "variable": "$pais",
+      "dialog_node": "slot_10_1540307810590",
+      "previous_sibling": "slot_7_1540307806086"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1530306168591",
+      "variable": "$pais",
+      "dialog_node": "slot_11_1539833177233",
+      "previous_sibling": "slot_8_1530306378167"
+    },
+    {
+      "type": "slot",
+      "parent": "En otras cosas",
+      "dialog_node": "slot_11_1541797908277",
+      "previous_sibling": "node_1_1542210116197"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1548162931423",
+      "variable": "$detalle",
+      "dialog_node": "slot_11_1548163307919",
+      "previous_sibling": "slot_8_1548163297806"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529548237563",
+      "metadata": {},
+      "variable": "$nutriente",
+      "dialog_node": "slot_1_1529613741097",
+      "previous_sibling": "slot_2_1539832206201"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1540302776993",
+      "variable": "$animal",
+      "dialog_node": "slot_1_1540307796387"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1547037774684",
+      "variable": "$producto",
+      "dialog_node": "slot_1_1547649963803"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529548237563",
+      "metadata": {
+        "_customization": {}
+      },
+      "variable": "$etapa",
+      "conditions": "$animal != 'reproductoras'",
+      "dialog_node": "slot_15_1529614812866",
+      "previous_sibling": "slot_18_1537195243443"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529548237563",
+      "metadata": {},
+      "variable": "$animal",
+      "dialog_node": "slot_15_1530050532017",
+      "previous_sibling": "slot_15_1529614812866"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1547726801798",
+      "metadata": {},
+      "variable": "$detalle",
+      "conditions": "$respuesta:sí",
+      "dialog_node": "slot_16_1547727416416",
+      "previous_sibling": "slot_5_1547727000335"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1529532891628",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$Saludo",
+      "dialog_node": "slot_18_1531238013806"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529548237563",
+      "metadata": {},
+      "variable": "$etapa",
+      "conditions": "$animal:reproductoras",
+      "dialog_node": "slot_18_1537195243443",
+      "previous_sibling": "slot_6_1529613824742"
+    },
+    {
+      "type": "slot",
+      "parent": "node_18_1529615348049",
+      "dialog_node": "slot_19_1530127918685"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1530306168591",
+      "variable": "$animal",
+      "dialog_node": "slot_2_1530306339385"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529548237563",
+      "metadata": {},
+      "variable": "$pais",
+      "dialog_node": "slot_2_1539832206201",
+      "previous_sibling": "handler_13_1529614625649"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1547726801798",
+      "metadata": {},
+      "variable": "$respuesta",
+      "dialog_node": "slot_2_1547726847957"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1548162931423",
+      "variable": "$producto",
+      "dialog_node": "slot_2_1548163230935"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1529532891628",
+      "metadata": {
+        "_customization": {}
+      },
+      "variable": "$Saludar",
+      "conditions": "@saludo != 'Buenas tardes.' && @saludo != 'Buenas noches.' && @saludo != 'Buenos días.'",
+      "dialog_node": "slot_26_1531238580589",
+      "previous_sibling": "slot_18_1531238013806"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1540302776993",
+      "variable": "$nutriente",
+      "dialog_node": "slot_4_1540307802334",
+      "previous_sibling": "slot_1_1540307796387"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1547037774684",
+      "variable": "$division",
+      "dialog_node": "slot_4_1547651291706",
+      "previous_sibling": "slot_1_1547649963803"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1530306168591",
+      "metadata": {},
+      "variable": "$nutriente",
+      "dialog_node": "slot_5_1530306361406",
+      "previous_sibling": "slot_2_1530306339385"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1547726801798",
+      "metadata": {
+        "_customization": {}
+      },
+      "variable": "$tipo",
+      "conditions": "$respuesta:sí",
+      "dialog_node": "slot_5_1547727000335",
+      "previous_sibling": "slot_2_1547726847957"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1548162931423",
+      "variable": "$division",
+      "dialog_node": "slot_5_1548163289823",
+      "previous_sibling": "slot_2_1548163230935"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1529548237563",
+      "metadata": {},
+      "variable": "$animal",
+      "conditions": "$etapa==null",
+      "dialog_node": "slot_6_1529613824742",
+      "previous_sibling": "slot_1_1529613741097"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1540302776993",
+      "variable": "$etapa",
+      "dialog_node": "slot_7_1540307806086",
+      "previous_sibling": "slot_4_1540307802334"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1530306168591",
+      "metadata": {},
+      "variable": "$etapa",
+      "dialog_node": "slot_8_1530306378167",
+      "previous_sibling": "slot_5_1530306361406"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1548162931423",
+      "variable": "$tipo",
+      "dialog_node": "slot_8_1548163297806",
+      "previous_sibling": "slot_5_1548163289823"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "acido"
+    },
+    {
+      "text": "amoxicilina"
+    },
+    {
+      "text": "asdasdasdasd"
+    },
+    {
+      "text": "Bacitracina de zinc"
+    },
+    {
+      "text": "bien y  tú?"
+    },
+    {
+      "text": "cerrar"
+    },
+    {
+      "text": "col"
+    },
+    {
+      "text": "¿Cómo era para cerdos?"
+    },
+    {
+      "text": "creo"
+    },
+    {
+      "text": "cuanto mide un animal"
+    },
+    {
+      "text": "deseo saber el color del cielo"
+    },
+    {
+      "text": "está preñada"
+    },
+    {
+      "text": "inicio"
+    },
+    {
+      "text": "ok"
+    },
+    {
+      "text": "p"
+    },
+    {
+      "text": "Para cerdos en levante"
+    },
+    {
+      "text": "pollito"
+    },
+    {
+      "text": "pollos"
+    },
+    {
+      "text": "si"
+    },
+    {
+      "text": "tamaño de las especies"
+    },
+    {
+      "text": "Tengo un pollo"
+    },
+    {
+      "text": "una duda"
+    },
+    {
+      "text": "usted se llama Premex?"
+    },
+    {
+      "text": "zinc inorgánico"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "IrisBot",
+  "language": "es",
+  "description": "Asistente de ATN"
+}
